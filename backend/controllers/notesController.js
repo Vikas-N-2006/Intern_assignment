@@ -89,11 +89,20 @@ exports.updateNote = async (req, res, next) => {
 
 exports.deleteNote = async (req, res, next) => {
   try {
-    const note = await Note.findById(req.params.id);
-    if (!note) return res.status(404).json({ success:false, error:'Note not found' });
-    if (note.user.toString() !== req.user.id) return res.status(403).json({ success:false, error:'Forbidden' });
-
-    await note.remove();
-    res.json({ success:true, message: 'Note deleted' });
-  } catch (err) { next(err); }
+    const note = await Note.findOneAndDelete({
+      _id: req.params.id,
+      user: req.user.id
+    });
+    
+    if (!note) {
+      return res.status(404).json({ 
+        success: false, 
+        error: 'Note not found or access denied' 
+      });
+    }
+    
+    res.json({ success: true, message: 'Note deleted' });
+  } catch (err) { 
+    next(err); 
+  }
 };
