@@ -3,6 +3,16 @@ const { check } = require('express-validator');
 const router = express.Router();
 const auth = require('../middlewares/authMiddleware'); 
 const notesController = require('../controllers/notesController');
+const logger = require('../utils/logger');
+
+router.use((req, res, next) => {
+	logger.info('Notes route triggered', {
+		method: req.method,
+		endpoint: req.originalUrl,
+		userId: req.user?.id || null
+	});
+	next();
+});
 
 router.get('/', auth, notesController.getNotes);
 router.post('/', auth, [ check('title', 'Title is required').notEmpty() ], notesController.createNote);

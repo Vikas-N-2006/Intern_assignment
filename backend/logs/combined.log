@@ -1,0 +1,264 @@
+{"error":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","level":"error","message":"MongoDB connection error","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/home/vikas/Desktop/Intern_assignment/backend/node_modules/mongoose/lib/connection.js:1165:11)\n    at NativeConnection.openUri (/home/vikas/Desktop/Intern_assignment/backend/node_modules/mongoose/lib/connection.js:1096:11)\n    at async connectDB (/home/vikas/Desktop/Intern_assignment/backend/config/db.js:8:5)\n    at async startServer (/home/vikas/Desktop/Intern_assignment/backend/index.js:15:5)","timestamp":"2026-03-16T16:25:16.067Z"}
+{"error":"queryTxt ETIMEOUT cluster0.exie5sc.mongodb.net","level":"error","message":"MongoDB connection error","stack":"Error: queryTxt ETIMEOUT cluster0.exie5sc.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","timestamp":"2026-03-16T16:29:45.860Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:30:34.309Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:30:34.312Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:30:34.320Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:32:12.721Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:32:12.727Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:32:12.734Z"}
+{"endpoint":"/","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:36:13.375Z","userId":null}
+{"endpoint":"/","level":"info","message":"Request completed","method":"GET","statusCode":404,"timestamp":"2026-03-16T16:36:13.383Z","userId":null}
+{"endpoint":"/health","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:36:20.727Z","userId":null}
+{"endpoint":"/health","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T16:36:20.740Z","userId":null}
+{"endpoint":"/favicon.ico","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:36:20.807Z","userId":null}
+{"endpoint":"/favicon.ico","level":"info","message":"Request completed","method":"GET","statusCode":404,"timestamp":"2026-03-16T16:36:20.810Z","userId":null}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:39:55.098Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:39:55.102Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:39:55.111Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:40:06.422Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:40:06.426Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:40:06.431Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:53:18.217Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:53:18.221Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:53:18.231Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:53:29.073Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:53:29.075Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:53:29.079Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:53:57.388Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:53:57.392Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:53:57.400Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:54:08.983Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:54:08.986Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:54:08.991Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:55:18.712Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:55:18.719Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:55:18.726Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:55:37.661Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:55:37.666Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:55:37.675Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-03-16T16:56:20.400Z"}
+{"level":"info","message":"Database connection established successfully","timestamp":"2026-03-16T16:56:20.404Z"}
+{"environment":"development","level":"info","message":"Server running on port 4000","port":"4000","timestamp":"2026-03-16T16:56:20.414Z"}
+{"endpoint":"/api/auth/login","level":"info","message":"Incoming request","method":"POST","timestamp":"2026-03-16T16:57:11.898Z","userId":null}
+{"endpoint":"/api/auth/login","level":"info","message":"Auth route triggered","method":"POST","timestamp":"2026-03-16T16:57:11.900Z"}
+{"endpoint":"/api/auth/login","level":"warn","message":"Login failed: invalid password","timestamp":"2026-03-16T16:57:12.074Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/auth/login","level":"info","message":"Request completed","method":"POST","statusCode":400,"timestamp":"2026-03-16T16:57:12.084Z","userId":null}
+{"endpoint":"/api/auth/login","level":"info","message":"Incoming request","method":"POST","timestamp":"2026-03-16T16:57:17.128Z","userId":null}
+{"endpoint":"/api/auth/login","level":"info","message":"Auth route triggered","method":"POST","timestamp":"2026-03-16T16:57:17.129Z"}
+{"endpoint":"/api/auth/login","level":"info","message":"Login successful","timestamp":"2026-03-16T16:57:17.264Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/auth/login","level":"info","message":"Request completed","method":"POST","statusCode":200,"timestamp":"2026-03-16T16:57:17.265Z","userId":null}
+{"endpoint":"/api/notes?limit=10&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:57:17.357Z","userId":null}
+{"endpoint":"/api/notes?limit=10&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T16:57:17.360Z","userId":null}
+{"endpoint":"/api/notes?limit=10&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T16:57:17.364Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":10,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T16:57:17.437Z","total":1,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?limit=10&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T16:57:17.443Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?limit=10&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:57:17.448Z","userId":null}
+{"endpoint":"/api/notes?limit=10&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T16:57:17.449Z","userId":null}
+{"endpoint":"/api/notes?limit=10&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T16:57:17.453Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":10,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T16:57:17.512Z","total":1,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?limit=10&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T16:57:17.515Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:57:26.232Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T16:57:26.233Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T16:57:26.235Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T16:57:26.297Z","total":1,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T16:57:26.300Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:57:26.301Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T16:57:26.301Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T16:57:26.303Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T16:57:26.358Z","total":1,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T16:57:26.361Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:57:26.580Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T16:57:26.581Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T16:57:26.584Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T16:57:26.646Z","total":1,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T16:57:26.655Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T16:57:31.274Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T16:57:31.275Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T16:57:31.280Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T16:57:31.423Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T16:57:31.425Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:57:31.646Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T16:57:31.647Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T16:57:31.649Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T16:57:31.739Z","total":1,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T16:57:31.742Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T16:57:49.527Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T16:57:49.527Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T16:57:49.531Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T16:57:49.750Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T16:57:49.755Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T16:57:49.991Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T16:57:49.991Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T16:57:49.993Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T16:57:50.056Z","total":1,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T16:57:50.061Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes","level":"info","message":"Incoming request","method":"POST","timestamp":"2026-03-16T17:00:16.714Z","userId":null}
+{"endpoint":"/api/notes","level":"info","message":"Notes route triggered","method":"POST","timestamp":"2026-03-16T17:00:16.714Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes","level":"info","message":"Creating note","method":"POST","timestamp":"2026-03-16T17:00:16.717Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note created","noteId":"69b837208f43ee35d35d600e","timestamp":"2026-03-16T17:00:16.798Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes","level":"info","message":"Request completed","method":"POST","statusCode":201,"timestamp":"2026-03-16T17:00:16.800Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:00:17.021Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:00:17.022Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:00:17.024Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:00:17.280Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:00:17.283Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:06:44.189Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:06:44.190Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:06:44.197Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:06:44.391Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:06:44.395Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:06:44.619Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:06:44.619Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:06:44.621Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:06:44.802Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:06:44.804Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:06:50.394Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:06:50.395Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:06:50.400Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:06:50.535Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:06:50.537Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:06:50.785Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:06:50.785Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:06:50.788Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:06:50.945Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:06:50.949Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:13:11.598Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:13:11.598Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:13:11.600Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:13:11.605Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:13:11.605Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:13:11.607Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:13:11.766Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:13:11.769Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:13:11.771Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:13:11.773Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:13:11.948Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:13:11.949Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:13:11.951Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:13:12.056Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:13:12.057Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:13:16.300Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:13:16.300Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:13:16.303Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:13:16.661Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:13:16.663Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:13:16.925Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:13:16.925Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:13:16.928Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:13:17.091Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:13:17.092Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:15:32.387Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:15:32.387Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:15:32.390Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:15:32.661Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:15:32.663Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:15:32.913Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:15:32.914Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:15:32.916Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:15:33.566Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:15:33.568Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:16:46.179Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:16:46.179Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:16:46.183Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:16:46.244Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:16:46.246Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:16:46.465Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:16:46.466Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:16:46.468Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:16:46.548Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:16:46.551Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:16:54.931Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:16:54.932Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:16:54.936Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:16:55.017Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:16:55.020Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:21:06.663Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:21:06.663Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:21:06.667Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:21:06.776Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:21:06.778Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:21:07.052Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:21:07.053Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:21:07.055Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:21:07.392Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:21:07.394Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:25:10.304Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:25:10.305Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:25:10.307Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:25:10.310Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:25:10.311Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:25:10.313Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:25:10.370Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:25:10.373Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:25:10.383Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:25:10.385Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:25:10.648Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:25:10.648Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:25:10.650Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:25:10.745Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:25:10.747Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:25:13.820Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:25:13.821Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:25:13.824Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:25:13.982Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:25:13.985Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:25:14.198Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:25:14.198Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:25:14.201Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:25:14.270Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:25:14.271Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:36:36.078Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:36:36.079Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:36:36.084Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:36:36.365Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:36:36.369Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:36:36.602Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:36:36.603Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:36:36.606Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:36:36.777Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:36:36.780Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:37:27.339Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:37:27.340Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:37:27.345Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:37:27.444Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:37:27.446Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:37:27.665Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:37:27.665Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:37:27.667Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:37:27.756Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:37:27.758Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Incoming request","method":"PUT","timestamp":"2026-03-16T17:37:47.154Z","userId":null}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Notes route triggered","method":"PUT","timestamp":"2026-03-16T17:37:47.154Z","userId":null}
+{"bodyKeys":["title","content","tags"],"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Updating note","method":"PUT","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:37:47.157Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note updated","noteId":"69b811d89e1d68d0bd8b3739","timestamp":"2026-03-16T17:37:47.422Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b811d89e1d68d0bd8b3739","level":"info","message":"Request completed","method":"PUT","statusCode":200,"timestamp":"2026-03-16T17:37:47.424Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:37:47.643Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:37:47.644Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:37:47.648Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:37:47.767Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:37:47.770Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc&tag=first-note","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:37:53.798Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc&tag=first-note","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:37:53.798Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc&tag=first-note","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:37:53.801Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:37:54.083Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc&tag=first-note","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:37:54.085Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:37:58.290Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:37:58.291Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:37:58.294Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:37:58.478Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:37:58.480Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc&tag=first-note","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:38:02.092Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc&tag=first-note","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:38:02.093Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc&tag=first-note","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:38:02.095Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:38:02.372Z","total":2,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc&tag=first-note","level":"info","message":"Request completed","method":"GET","statusCode":304,"timestamp":"2026-03-16T17:38:02.374Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b837208f43ee35d35d600e","level":"info","message":"Incoming request","method":"DELETE","timestamp":"2026-03-16T17:38:07.096Z","userId":null}
+{"endpoint":"/api/notes/69b837208f43ee35d35d600e","level":"info","message":"Notes route triggered","method":"DELETE","timestamp":"2026-03-16T17:38:07.097Z","userId":null}
+{"endpoint":"/api/notes/69b837208f43ee35d35d600e","level":"info","message":"Deleting note","method":"DELETE","noteId":"69b837208f43ee35d35d600e","timestamp":"2026-03-16T17:38:07.100Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","message":"Note deleted","noteId":"69b837208f43ee35d35d600e","timestamp":"2026-03-16T17:38:07.185Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes/69b837208f43ee35d35d600e","level":"info","message":"Request completed","method":"DELETE","statusCode":200,"timestamp":"2026-03-16T17:38:07.187Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Incoming request","method":"GET","timestamp":"2026-03-16T17:38:10.540Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes route triggered","method":"GET","timestamp":"2026-03-16T17:38:10.540Z","userId":null}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Notes list requested","method":"GET","timestamp":"2026-03-16T17:38:10.543Z","userId":"69b8112f9e1d68d0bd8b371d"}
+{"level":"info","limit":50,"message":"Notes list fetched","page":1,"query":null,"timestamp":"2026-03-16T17:38:10.768Z","total":1,"userId":"69b8112f9e1d68d0bd8b371d"}
+{"endpoint":"/api/notes?q=&limit=50&sort=createdAt:desc","level":"info","message":"Request completed","method":"GET","statusCode":200,"timestamp":"2026-03-16T17:38:10.770Z","userId":"69b8112f9e1d68d0bd8b371d"}

@@ -1,14 +1,18 @@
 const dotenv = require('dotenv');
 dotenv.config();
 const mongoose = require('mongoose');
+const logger = require('../utils/logger');
 
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI);
-    console.log('MongoDB connected');
+    logger.info('MongoDB connected successfully');
   } catch (err) {
-    console.error('MongoDB connection error:', err.message);
-    process.exit(1);
+    logger.error('MongoDB connection error', {
+      error: err.message,
+      stack: err.stack
+    });
+    throw err;
   }
 };
 
