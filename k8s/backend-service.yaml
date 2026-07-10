@@ -11,6 +11,6 @@ spec:
     app: backend
 
   ports:
-    - port: 5000
-      targetPort: 5000
+    - port: 4000
+      targetPort: 4000
       nodePort: 30007
