@@ -7,7 +7,6 @@ React + Vite frontend, Node + Express backend, MongoDB (Atlas/local). Features: 
 - Frontend: React (Vite), Tailwind, axios, react-hook-form
 - Backend: Node, Express, Mongoose
 - DB: MongoDB (Atlas recommended)
-- Tests: Jest, Supertest, MongoDB Memory Server
 
 ## Local Setup
 

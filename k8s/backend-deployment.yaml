@@ -19,5 +19,30 @@ spec:
       containers:
       - name: backend
         image: vikasvikky56/notes-backend
+
         ports:
         - containerPort: 5000
+
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "256Mi"
+
+        env:
+        - name: MONGO_URI
+          valueFrom:
+            secretKeyRef:
+              name: backend-secret
+              key: MONGO_URI
+
+        - name: JWT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: backend-secret
+              key: JWT_SECRET
+
+        - name: PORT
+          value: "5000"
